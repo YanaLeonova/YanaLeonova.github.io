@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px) {
+
+    body {    
+        min-height: 100vh;
+        height: 100%;
+    }
+
+    .wrapper {
+        min-height: 100%;
+    }
+
+    .wrapper_body {
+        display: block;
+    }
+
+    .wrapper_head {
+        margin: 40px 0;
+    }
+
+    section {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .b1_fua_gra {
+        display: block;
+        margin: 0 auto 45px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .b2_fish,
+    section:last-child {
+        display: block;
+    }
+
+    .b2_fish {
+        margin: 0 auto 45px;
+    }
+
+    section:last-child {
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    section {
+        width: 93%;
+        margin: 10px;
+    }
+
+    .cat_text h1 {
+        font-size: 14vw;
+    }
+
+}
